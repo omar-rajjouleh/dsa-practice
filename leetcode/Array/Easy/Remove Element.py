@@ -1,9 +1,9 @@
 """
 url(https://leetcode.com/problems/remove-element/description/?envType=problem-list-v2&envId=array)
-complixty time: o(n) it going to through the whole array if  , for space: o(1) did not use any extra space
+complixty time: o(n) it going to through the whole array,for space: o(1) did not use any extra space
 just keep traking which is the val and swap it with the element from the back of the array  but make sure the element from the back is not the same val
-stright forward solution nothing bad it okay problem 
-but there is tricky test case when input is like [1] and val=1 that one was tricky because i chnaged a bit of my code to handle this test case i was returning i+1 and the condition in while was i<j 
+stright forward solution nothing bad it's okay problem 
+but there is tricky test case when input is like [1] and val=1 that one was tricky because I chnaged a bit of my code to handle this test case I was returning i+1 and the condition in while was i<j 
 which was logical until this test case i changed to i<=j and returnd j+1 for me that was the hard part in the problem  
 """
 
